@@ -1,0 +1,52 @@
+#center {
+	width: 264px;
+	margin: 20px auto;
+	padding-left: 72px;
+	padding-right: 72px;
+	height: 230px;
+}
+
+#checkbox {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+#people_image {
+	margin-left: -72px;
+}
+
+#rememberMeLabel {
+    font-family: "Times New Roman";
+    font-size: 12px;
+    color: #7c7c7c;
+}
+
+#rememberMeCheckBox {
+}
+
+#password {
+  margin-top: 10px;
+}
+
+input[type="text"] {
+    border-style: hidden;
+    border-bottom: 1px solid #c2d1d0;
+    margin-top: 2px;
+    width: 264px;
+    height: 35px;
+    font-family: "Times New Roman";
+    color: #c3c5c4;
+    font-size: 15px;
+    background-color : #f0f2f1;
+}
+
+input[type="button"] {
+    width: 57px;
+    height: 30px;
+    color: #7c7c7c;
+    margin-left: 10px;
+    font-family: "Times New Roman";
+    border-style: hidden;
+    border-bottom: 1px solid #c2d1d0;
+    background-color : #f0f2f1;
+}

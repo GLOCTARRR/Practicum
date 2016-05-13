@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+    <title>Title</title>
+</head>
+<body>
+<div class = "center">
+		<div class="wrapper">
+        <video id="video" width="640" height="360" poster="images/background.jpg" >
+            <source src="video.mp4" type="video/mp4">
+            <source src="video.webm" type="video/webm">
+            <object width="640" height="360" classid="clsid:
+                d27cdb6e-ae6d-11cf-96b8-444553540000" codebase=
+                "http://fpdownload.macromedia.com/pub/
+                shockwave/cabs/flash/swflash.cab#version=8,0,0,0">
+                <param name="SRC" value="player.swf?file=video.mp4">
+                <embed src="player.swf?file=video.mp4" width="640"
+                   height="360">
+                </embed>
+                <p>Please update your browser or install Flash</p>
+            </object>
+        </video>
+        </div>
+
+        <div class="control">
+                <div id="durationBar">
+                    <div id="loadBar">
+                        <div id="positionBar"></div>
+                        <img src="images/point.png"/>
+                    </div>
+                </div>
+                <div class="buttonBar">
+                    <div class="left-buttons">
+                        <img src="images/dinamic.png"/>
+                        <input type="button"  class="button-volume1 button-volume" value="" />
+                        <input type="button"  class="button-volume2 button-volume" value="" />
+                        <input type="button"  class="button-volume3 button-volume" value="" />
+                        <input type="button"  class="button-volume4 button-volume" value="" />
+                        <input type="button"  class="button-volume5 button-volume" value="" />
+
+                    </div>
+                    <div class="centre-buttons">
+                        <input type="button" id="prev" class="button-prev button" value="" />
+                        <input type="button" id="play" class="button-play button" value="" />
+                        <input type="button" id="next" class="button-next button" value="" />
+                    </div>
+                    <div class="right-buttons">
+                        <input type="button" id="size" class="button-size button" value="" />
+                        <input type="button" id="settings" class="button-settings button" value="" />
+                    </div>
+                </div>
+        </div>
+	</div>
+
+</body>
+</html>
+

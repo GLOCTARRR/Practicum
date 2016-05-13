@@ -1,0 +1,152 @@
+
+
+.adaptiv,
+.adaptiv ul,
+.adaptiv li,
+.adaptiv a {
+      margin: 0;
+      padding: 0;
+      border: none;
+      outline: none;
+}
+
+
+body{
+    background: black;
+}
+
+ul li{
+	list-style: none;
+    float: left;
+}
+
+#center{
+    background:#ffffff ;
+    box-sizing: border-box;
+    width:150px;
+    height: 185px;
+    border:1px solid #eaeaea;
+	margin: 20px auto;
+
+}
+
+.adaptiv{
+    display: inline;
+}
+
+.adaptiv li{
+    width:100%;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.adaptiv li:last-child{ border: none; }
+.adaptiv li > a {
+    padding: 11px 0 7px 0;
+    color: #7f8c8d;
+    font: normal 13px Arial;
+    text-decoration: none;
+    background:#ffffff;
+}
+
+.picture{
+    width:16px;
+    height:16px;
+    float:left;
+}
+
+#profil > div{
+    margin: 10px 10px 10px 10px;
+    background:url("images/Profil.png");
+}
+
+#profil > a{
+    display: inline-block;
+}
+
+#profil:hover div{
+    background:url("images/images-hover.png");
+}
+
+#messages > div{
+    width:16px;
+    height:12px;
+    margin: 13px 10px 11px 10px;
+	background:url("images/messages.png");
+}
+
+#messages > a{
+    display: inline-block;
+}
+
+#messages:hover div{
+    background:url("images/message-hover.png");
+}
+
+#contacts > div {
+        margin: 11px 10px 10px 10px;
+        background: url("images/contacts.png");
+}
+
+#contacts > a{
+    display: inline-block;
+}
+
+#contacts:hover div{
+    background:url("images/contacts-hover.png");
+}
+
+#portfolio > div {
+        margin: 10px 10px 10px 10px;
+        background: url("images/portfolio.png");
+ }
+
+#portfolio > a{
+    display: inline-block;
+}
+
+#portfolio:hover div{
+    background:url("images/portfolio-hover.png");
+}
+
+#css-live > div {
+        margin: 10px 10px 10px 10px;
+        background: url("images/css-live.png");
+}
+
+#css-live > a{
+    display: inline-block;
+}
+
+#css-live:hover div{
+    background:url("images/css-live-hover.png");
+}
+
+@media(max-width: 480px)  {
+    #center{
+        box-sizing: border-box;
+        width:38px;
+        height: 185px;
+        border:1px solid #eaeaea;
+    }
+
+    #profil > a{
+        display: none;
+    }
+
+    #messages > a{
+        display: none;
+    }
+
+    #contacts > a{
+        display: none;
+    }
+
+
+    #portfolio > a{
+        display: none;
+    }
+
+    #css-live > a{
+        display:none;
+    }
+}

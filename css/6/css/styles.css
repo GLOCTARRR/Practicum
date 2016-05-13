@@ -1,0 +1,76 @@
+body 
+{
+	text-align: center;
+	margin-top: 100px;
+	background: url('../image/background.png') repeat-x;
+}
+
+.cart{
+    position:relative;
+    margin: auto;
+    height:44px;
+    width:44px;
+}
+	
+.descr{
+    display:none;
+	top:40px;
+    margin-left:-101px;
+    height:195px;
+	width:250px;
+}
+	
+.items {
+	position: absolute;
+	top: 28px;
+	left: 0;
+	width: 38%;
+}
+.amount {
+	position: absolute;
+	top: 28px;
+	right: 0;
+	width: 50%;
+}
+.mainData {
+	position: absolute;
+	top: 73px;
+	left: 0;
+	width: 97%;
+}
+.view {
+	position: absolute;
+	top: 130px;
+	left: 0;
+	width: 50%;
+}
+.button {
+	position: absolute;
+	top: 142px;
+	right: 0;
+	width		: 60%;
+}
+.activeButton {
+	display:none;
+	left:0;
+    bottom:0;
+    right:0;
+    top:0;
+}
+.checkout {
+	position: absolute;
+	margin-top: -45px;
+	//top: 128px;
+	//height: 100%;
+	width: 100%;
+}
+	
+.cart:hover .descr{
+    display:block;
+    position:absolute;
+}
+	
+.button:hover .activeButton{
+    display:block;
+	position:absolute;
+`}
