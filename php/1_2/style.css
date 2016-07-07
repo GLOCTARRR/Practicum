@@ -1,0 +1,23 @@
+#form{
+	width: 300px;
+	margin: 100px auto;
+}
+
+#name{
+	width:100%;
+}
+
+#rename{
+	display: block;
+	margin: 20px auto;
+}
+
+#res{	
+    display: inline-block;
+	width: 200px;
+}
+
+.text{   
+	
+	border-bottom: 1px solid #992223;
+}
