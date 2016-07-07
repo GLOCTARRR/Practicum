@@ -17,7 +17,6 @@ class MessageForm extends Model
 	public $image;
 	
 	
-	
 	public function rules()
 	{
 		return [
@@ -30,7 +29,7 @@ class MessageForm extends Model
 			['captcha', 'required'],
 			['captcha', 'captcha'],
 			[['image'], 'image', 'extensions' => ['jpg','png'], 'message' => 'Недопустимый  формат'],
-			[['file'], 'file', 'extensions' =>['txt'], 'maxSize' => 1024],			
+			[['file'], 'file', 'extensions' =>['txt'], 'maxSize' => 1024 *100],			
 		];
 	}
 	
